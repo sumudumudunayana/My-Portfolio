@@ -7,7 +7,6 @@ function sendMail() {
     const email = document.getElementById("emailInput").value;
     const subject = document.getElementById("subjectInput").value;
     const message = document.getElementById("massageInput").value;
-
     console.log("Name:", name);
     console.log("Email:", email);
     console.log("Subject:", subject);

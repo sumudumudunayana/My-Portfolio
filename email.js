@@ -22,7 +22,6 @@ function sendMail() {
         });
         return;
     }
-
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(email)) {
         Swal.fire({

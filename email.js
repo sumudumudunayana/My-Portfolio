@@ -50,7 +50,6 @@ function sendMail() {
             text: "Your message has been sent successfully.",
             confirmButtonColor: "#28a745",
         });
-
         document.getElementById("nameInput").value = "";
         document.getElementById("emailInput").value = "";
         document.getElementById("subjectInput").value = "";

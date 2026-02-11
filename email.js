@@ -8,7 +8,6 @@ function sendMail() {
     const subject = document.getElementById("subjectInput").value;
     const message = document.getElementById("massageInput").value;
 
-
     console.log("Name:", name);
     console.log("Email:", email);
     console.log("Subject:", subject);

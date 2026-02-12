@@ -195,6 +195,9 @@ window.addEventListener('resize', () => {
 });
 
 
+
+   
+//3D TILT EFFECT
 function apply3DTilt(selector) {
     document.querySelectorAll(selector).forEach(card => {
         const inner = card.querySelector(".tilt-inner");

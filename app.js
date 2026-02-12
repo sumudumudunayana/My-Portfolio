@@ -234,10 +234,7 @@ function apply3DTilt(selector) {
 apply3DTilt(".skill-card");
 apply3DTilt(".project-card");
 
-
-/* =========================
-   GSAP STAGGER REVEAL
-========================= */
+//GSAP STAGGER REVEAL
 const revealCards = (sectionId) => {
     const cards = document.querySelectorAll(`${sectionId} .card-item`);
 
